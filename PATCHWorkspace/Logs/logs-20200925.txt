@@ -1,0 +1,74 @@
+2020-09-25 00:24:10.048 +02:00 [INF] ===> [Launcher updating] process STARTED! <===
+2020-09-25 00:24:10.726 +02:00 [INF] Update context initializing...
+2020-09-25 00:24:10.727 +02:00 [INF] Update context points to https://mega.nz/folder/zsIABbjS#9G17tyYvHdamHwGTG9FcYw
+2020-09-25 00:24:10.728 +02:00 [WRN] No current version found. A full repair may be required.
+2020-09-25 00:24:10.747 +02:00 [INF] Workspace cleaned. Removed 0 files
+2020-09-25 00:24:11.046 +02:00 [WRN] No patches index found.
+2020-09-25 00:24:11.052 +02:00 [WRN] No updater definition found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x0000e] in <6cd530fe6d884c929c9643178692376f>:0 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00007] in <6cd530fe6d884c929c9643178692376f>:0 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetUpdaterDefinition>b__57_0 () [0x00012] in <6cd530fe6d884c929c9643178692376f>:0 
+2020-09-25 00:24:11.052 +02:00 [WRN] No builds index found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x0000e] in <6cd530fe6d884c929c9643178692376f>:0 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00007] in <6cd530fe6d884c929c9643178692376f>:0 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetBuildsIndex>b__58_0 () [0x00012] in <6cd530fe6d884c929c9643178692376f>:0 
+2020-09-25 00:24:11.056 +02:00 [ERR] Cannot retrieve any new version...
+2020-09-25 00:24:11.158 +02:00 [INF] Collected 1105 local files.
+2020-09-25 00:24:11.161 +02:00 [ERR] ===> [Launcher updating] process FAILED! <===
+2020-09-25 00:57:43.613 +02:00 [INF] ===> [Launcher updating] process STARTED! <===
+2020-09-25 00:57:44.534 +02:00 [INF] Update context initializing...
+2020-09-25 00:57:44.535 +02:00 [INF] Update context points to http://mega.nz/folder/zsIABbjS#9G17tyYvHdamHwGTG9FcYw
+2020-09-25 00:57:44.536 +02:00 [WRN] No current version found. A full repair may be required.
+2020-09-25 00:57:44.552 +02:00 [INF] Workspace cleaned. Removed 0 files
+2020-09-25 00:57:45.150 +02:00 [WRN] No patches index found.
+2020-09-25 00:57:45.156 +02:00 [WRN] No builds index found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x0000e] in <a24654508b824718b92441e6dd3ecfb9>:0 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00007] in <a24654508b824718b92441e6dd3ecfb9>:0 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetBuildsIndex>b__58_0 () [0x00012] in <a24654508b824718b92441e6dd3ecfb9>:0 
+2020-09-25 00:57:45.156 +02:00 [WRN] No updater definition found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x0000e] in <a24654508b824718b92441e6dd3ecfb9>:0 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00007] in <a24654508b824718b92441e6dd3ecfb9>:0 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetUpdaterDefinition>b__57_0 () [0x00012] in <a24654508b824718b92441e6dd3ecfb9>:0 
+2020-09-25 00:57:45.158 +02:00 [ERR] Cannot retrieve any new version...
+2020-09-25 00:57:45.239 +02:00 [INF] Collected 918 local files.
+2020-09-25 00:57:45.242 +02:00 [ERR] ===> [Launcher updating] process FAILED! <===

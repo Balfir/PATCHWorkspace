@@ -1,0 +1,4 @@
+2020-09-16 21:35:02.772 +02:00 [INF] ===> [Launcher updating] process STARTED! <===
+2020-09-16 21:35:02.880 +02:00 [ERR] [Launcher updating] process FAILED! Our servers are not responding... Wait some minutes and retry!
+2020-09-16 21:35:22.209 +02:00 [INF] ===> [Launcher updating] process STARTED! <===
+2020-09-16 21:35:22.316 +02:00 [ERR] [Launcher updating] process FAILED! Our servers are not responding... Wait some minutes and retry!

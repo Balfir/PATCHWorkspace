@@ -1,0 +1,244 @@
+2020-09-25 00:44:44.614 +02:00 [INF] ===> [Game updating] process STARTED! <===
+2020-09-25 00:44:44.975 +02:00 [INF] Update context initializing...
+2020-09-25 00:44:44.976 +02:00 [INF] Update context points to https://mega.nz/folder/zsIABbjS#9G17tyYvHdamHwGTG9FcYw/
+2020-09-25 00:44:44.977 +02:00 [WRN] No current version found. A full repair may be required.
+2020-09-25 00:44:44.978 +02:00 [INF] Workspace cleaned. Removed 0 files
+2020-09-25 00:44:45.213 +02:00 [WRN] No patches index found.
+2020-09-25 00:44:45.216 +02:00 [WRN] No updater definition found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x00001] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Utilities\Serializing\NewtonsoftSerializer.cs:15 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00008] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\IO\DownloadsManager.cs:15 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetUpdaterDefinition>b__57_0 () [0x00002] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\UpdatingContext.cs:137 
+2020-09-25 00:44:45.216 +02:00 [WRN] No builds index found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x00001] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Utilities\Serializing\NewtonsoftSerializer.cs:15 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00008] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\IO\DownloadsManager.cs:15 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetBuildsIndex>b__58_0 () [0x00002] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\UpdatingContext.cs:154 
+2020-09-25 00:44:45.223 +02:00 [ERR] Cannot retrieve any new version...
+2020-09-25 00:44:45.226 +02:00 [INF] Collected 1 local files.
+2020-09-25 00:44:45.228 +02:00 [ERR] ===> [Game updating] process FAILED! <===
+2020-09-25 00:45:06.930 +02:00 [INF] ===> [Launcher updating] process STARTED! <===
+2020-09-25 00:45:07.290 +02:00 [INF] Update context initializing...
+2020-09-25 00:45:07.291 +02:00 [INF] Update context points to https://mega.nz/folder/zsIABbjS#9G17tyYvHdamHwGTG9FcYw/
+2020-09-25 00:45:07.292 +02:00 [WRN] No current version found. A full repair may be required.
+2020-09-25 00:45:07.293 +02:00 [INF] Workspace cleaned. Removed 0 files
+2020-09-25 00:45:07.528 +02:00 [WRN] No patches index found.
+2020-09-25 00:45:07.532 +02:00 [WRN] No updater definition found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x00001] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Utilities\Serializing\NewtonsoftSerializer.cs:15 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00008] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\IO\DownloadsManager.cs:15 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetUpdaterDefinition>b__57_0 () [0x00002] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\UpdatingContext.cs:137 
+2020-09-25 00:45:07.532 +02:00 [WRN] No builds index found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x00001] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Utilities\Serializing\NewtonsoftSerializer.cs:15 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00008] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\IO\DownloadsManager.cs:15 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetBuildsIndex>b__58_0 () [0x00002] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\UpdatingContext.cs:154 
+2020-09-25 00:45:07.533 +02:00 [ERR] Cannot retrieve any new version...
+2020-09-25 00:45:07.536 +02:00 [INF] Collected 1 local files.
+2020-09-25 00:45:07.537 +02:00 [ERR] ===> [Launcher updating] process FAILED! <===
+2020-09-25 00:52:20.122 +02:00 [INF] ===> [Launcher updating] process STARTED! <===
+2020-09-25 00:52:20.548 +02:00 [INF] Update context initializing...
+2020-09-25 00:52:20.549 +02:00 [INF] Update context points to http://mega.nz/folder/zsIABbjS#9G17tyYvHdamHwGTG9FcYw/
+2020-09-25 00:52:20.550 +02:00 [WRN] No current version found. A full repair may be required.
+2020-09-25 00:52:20.551 +02:00 [INF] Workspace cleaned. Removed 0 files
+2020-09-25 00:52:20.823 +02:00 [WRN] No patches index found.
+2020-09-25 00:52:20.826 +02:00 [WRN] No builds index found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x00001] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Utilities\Serializing\NewtonsoftSerializer.cs:15 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00008] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\IO\DownloadsManager.cs:15 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetBuildsIndex>b__58_0 () [0x00002] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\UpdatingContext.cs:154 
+2020-09-25 00:52:20.826 +02:00 [WRN] No updater definition found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x00001] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Utilities\Serializing\NewtonsoftSerializer.cs:15 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00008] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\IO\DownloadsManager.cs:15 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetUpdaterDefinition>b__57_0 () [0x00002] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\UpdatingContext.cs:137 
+2020-09-25 00:52:20.827 +02:00 [ERR] Cannot retrieve any new version...
+2020-09-25 00:52:20.830 +02:00 [INF] Collected 1 local files.
+2020-09-25 00:52:20.831 +02:00 [ERR] ===> [Launcher updating] process FAILED! <===
+2020-09-25 01:12:13.624 +02:00 [INF] ===> [Launcher updating] process STARTED! <===
+2020-09-25 01:12:14.036 +02:00 [INF] Update context initializing...
+2020-09-25 01:12:14.036 +02:00 [INF] Update context points to http://mega.nz/folder/7540QJjQ#qkBdKFDjmOEA_gr4IcnFQA
+2020-09-25 01:12:14.037 +02:00 [WRN] No current version found. A full repair may be required.
+2020-09-25 01:12:14.039 +02:00 [INF] Workspace cleaned. Removed 0 files
+2020-09-25 01:12:15.318 +02:00 [WRN] No patches index found.
+2020-09-25 01:12:15.322 +02:00 [WRN] No builds index found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x00001] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Utilities\Serializing\NewtonsoftSerializer.cs:15 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00008] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\IO\DownloadsManager.cs:15 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetBuildsIndex>b__58_0 () [0x00002] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\UpdatingContext.cs:154 
+2020-09-25 01:12:15.322 +02:00 [WRN] No updater definition found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x00001] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Utilities\Serializing\NewtonsoftSerializer.cs:15 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00008] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\IO\DownloadsManager.cs:15 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetUpdaterDefinition>b__57_0 () [0x00002] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\UpdatingContext.cs:137 
+2020-09-25 01:12:15.323 +02:00 [ERR] Cannot retrieve any new version...
+2020-09-25 01:12:15.325 +02:00 [INF] Collected 1 local files.
+2020-09-25 01:12:15.327 +02:00 [ERR] ===> [Launcher updating] process FAILED! <===
+2020-09-25 01:12:43.967 +02:00 [INF] ===> [Launcher updating] process STARTED! <===
+2020-09-25 01:12:44.395 +02:00 [INF] Update context initializing...
+2020-09-25 01:12:44.396 +02:00 [INF] Update context points to http://mega.nz/folder/7540QJjQ#qkBdKFDjmOEA_gr4IcnFQA/
+2020-09-25 01:12:44.397 +02:00 [WRN] No current version found. A full repair may be required.
+2020-09-25 01:12:44.398 +02:00 [INF] Workspace cleaned. Removed 0 files
+2020-09-25 01:12:44.684 +02:00 [WRN] No patches index found.
+2020-09-25 01:12:44.687 +02:00 [WRN] No builds index found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x00001] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Utilities\Serializing\NewtonsoftSerializer.cs:15 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00008] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\IO\DownloadsManager.cs:15 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetBuildsIndex>b__58_0 () [0x00002] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\UpdatingContext.cs:154 
+2020-09-25 01:12:45.472 +02:00 [WRN] No updater definition found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x00001] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Utilities\Serializing\NewtonsoftSerializer.cs:15 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00008] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\IO\DownloadsManager.cs:15 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetUpdaterDefinition>b__57_0 () [0x00002] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\UpdatingContext.cs:137 
+2020-09-25 01:12:45.473 +02:00 [ERR] Cannot retrieve any new version...
+2020-09-25 01:12:45.475 +02:00 [INF] Collected 1 local files.
+2020-09-25 01:12:45.477 +02:00 [ERR] ===> [Launcher updating] process FAILED! <===
+2020-09-25 01:17:21.618 +02:00 [INF] ===> [Game updating] process STARTED! <===
+2020-09-25 01:17:22.331 +02:00 [INF] Update context initializing...
+2020-09-25 01:17:22.331 +02:00 [INF] Update context points to http://mega.nz/folder/7540QJjQ#qkBdKFDjmOEA_gr4IcnFQA
+2020-09-25 01:17:22.332 +02:00 [WRN] No current version found. A full repair may be required.
+2020-09-25 01:17:22.334 +02:00 [INF] Workspace cleaned. Removed 0 files
+2020-09-25 01:17:22.633 +02:00 [WRN] No patches index found.
+2020-09-25 01:17:22.636 +02:00 [WRN] No updater definition found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x00001] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Utilities\Serializing\NewtonsoftSerializer.cs:15 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00008] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\IO\DownloadsManager.cs:15 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetUpdaterDefinition>b__57_0 () [0x00002] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\UpdatingContext.cs:137 
+2020-09-25 01:17:22.636 +02:00 [WRN] No builds index found. Problem: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonConverter[] converters) [0x00017] in <2073514815234917a5e8f91b0b239405>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonConverter[] converters) [0x00000] in <2073514815234917a5e8f91b0b239405>:0 
+  at MHLab.Patch.Utilities.Serializing.NewtonsoftSerializer.Deserialize[TObject] (System.String data) [0x00001] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Utilities\Serializing\NewtonsoftSerializer.cs:15 
+  at MHLab.Patch.Core.Client.IO.DownloadsManager.DownloadJson[T] (System.String url, MHLab.Patch.Core.Serializing.ISerializer serializer) [0x00008] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\IO\DownloadsManager.cs:15 
+  at MHLab.Patch.Core.Client.UpdatingContext.<GetBuildsIndex>b__58_0 () [0x00002] in C:\Users\Marko\Documents\My Games\NOrthlight 2.0v\Assets\MHLab\Patch\Launcher\Scripts\Core\UpdatingContext.cs:154 
+2020-09-25 01:17:22.637 +02:00 [ERR] Cannot retrieve any new version...
+2020-09-25 01:17:22.640 +02:00 [INF] Collected 1 local files.
+2020-09-25 01:17:22.642 +02:00 [ERR] ===> [Game updating] process FAILED! <===
+2020-09-25 22:04:19.024 +02:00 [INF] ===> [Game updating] process STARTED! <===
+2020-09-25 22:04:19.467 +02:00 [ERR] [Game updating] process FAILED! Our servers are not responding... Wait some minutes and retry!
+2020-09-25 22:06:11.994 +02:00 [INF] ===> [Game updating] process STARTED! <===
+2020-09-25 22:06:12.412 +02:00 [ERR] [Game updating] process FAILED! Our servers are not responding... Wait some minutes and retry!
+2020-09-25 22:06:51.218 +02:00 [INF] ===> [Game updating] process STARTED! <===
+2020-09-25 22:06:51.662 +02:00 [ERR] [Game updating] process FAILED! Our servers are not responding... Wait some minutes and retry!
+2020-09-25 22:10:10.555 +02:00 [INF] ===> [Game updating] process STARTED! <===
+2020-09-25 22:10:10.951 +02:00 [ERR] [Game updating] process FAILED! Our servers are not responding... Wait some minutes and retry!
+2020-09-25 22:18:38.358 +02:00 [INF] ===> [Game updating] process STARTED! <===
+2020-09-25 22:18:38.760 +02:00 [ERR] [Game updating] process FAILED! Our servers are not responding... Wait some minutes and retry!
+2020-09-25 22:30:03.339 +02:00 [INF] ===> [Game updating] process STARTED! <===
+2020-09-25 22:30:03.753 +02:00 [ERR] [Game updating] process FAILED! Our servers are not responding... Wait some minutes and retry!
+2020-09-25 22:31:42.444 +02:00 [INF] ===> [Game updating] process STARTED! <===
+2020-09-25 22:31:42.884 +02:00 [ERR] [Game updating] process FAILED! Our servers are not responding... Wait some minutes and retry!
+2020-09-25 22:32:07.880 +02:00 [INF] ===> [Game updating] process STARTED! <===
+2020-09-25 22:32:08.302 +02:00 [ERR] [Game updating] process FAILED! Our servers are not responding... Wait some minutes and retry!
+2020-09-25 22:35:52.015 +02:00 [INF] ===> [Game updating] process STARTED! <===
+2020-09-25 22:35:52.447 +02:00 [ERR] [Game updating] process FAILED! Our servers are not responding... Wait some minutes and retry!
+2020-09-25 22:46:42.495 +02:00 [INF] ===> [Game updating] process STARTED! <===
+2020-09-25 22:46:42.898 +02:00 [ERR] [Game updating] process FAILED! Our servers are not responding... Wait some minutes and retry!
+2020-09-25 23:01:59.329 +02:00 [INF] ===> [Game updating] process STARTED! <===
+2020-09-25 23:01:59.778 +02:00 [ERR] [Game updating] process FAILED! Our servers are not responding... Wait some minutes and retry!
